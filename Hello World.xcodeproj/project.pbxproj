@@ -141,6 +141,7 @@
 		18D2B99F17B59B3100084052 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D2B99E17B59B3100084052 /* AppDelegate.m */; };
 		18D2B9A217B59B3100084052 /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D2B9A117B59B3100084052 /* HelloWorldLayer.m */; };
 		18D2B9A517B59B3100084052 /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D2B9A417B59B3100084052 /* IntroLayer.m */; };
+		18D2B9AD17B59EA400084052 /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D2B9AC17B59EA400084052 /* ball.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -425,6 +426,7 @@
 		18D2B9A117B59B3100084052 /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
 		18D2B9A317B59B3100084052 /* IntroLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
 		18D2B9A417B59B3100084052 /* IntroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
+		18D2B9AC17B59EA400084052 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -501,6 +503,7 @@
 		18D2B80D17B59B2E00084052 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				18D2B9AB17B59E9B00084052 /* Sprite */,
 				18D2B80E17B59B2E00084052 /* Default.png */,
 				18D2B81017B59B2E00084052 /* Default@2x.png */,
 				18D2B81217B59B2E00084052 /* Default-568h@2x.png */,
@@ -879,6 +882,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		18D2B9AB17B59E9B00084052 /* Sprite */ = {
+			isa = PBXGroup;
+			children = (
+				18D2B9AC17B59EA400084052 /* ball.png */,
+			);
+			name = Sprite;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -942,6 +953,7 @@
 				18D2B82117B59B2E00084052 /* Icon@2x.png in Resources */,
 				18D2B82417B59B2E00084052 /* iTunesArtwork in Resources */,
 				18D2B97D17B59B3000084052 /* ChangeLog in Resources */,
+				18D2B9AD17B59EA400084052 /* ball.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
